@@ -3,34 +3,41 @@
     <head>
         <meta charset="utf-8">
         <title>
-            Form básico
+            Form básico (ainda sem "<form>")
         </title>
     </head>
     <body>
-        <p>O <a href="https://www.devmedia.com.br/html/" target="_blank">HTML</a> é uma linguagem que diz para o navegador o que é que, em uma página,  (um texto, link, imagem etc). Sem conhecê-la
-        é impossível criar um site ou app web.
+        <p><img src="images/html.png" alt="HTML v5" title="HTML v5" height="100" width="100">O <a href="https://www.devmedia.com.br/html/" target="_blank">HTML</a> é uma linguagem que diz para o navegador o 
+        que é, em uma página, um texto, link, imagem etc.<br> 
+        Sem conhecê-la é impossível criar um site ou app web.
         </p>
         <p>
             <label>
-                Digite o email para receber informações sobre HTML
+                Digite o seu email para se inscrever na newsletter e receber informações sobre HTML. <br>
             </label>
-
-            <input id="e-mail" />
+            Email:
+            <input id="e-mail" size="40" />
+            <input type="submit" id="btn_register_newsletter" value="Cadastrar na newsletter" />
         </p>
-        <p>Entre em <a href="#contato">contato</a>
+        <p>Se desejar, entre em <a href="#contato">contato por meio do form no fim desta página.</a>
         </p>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div id="contato">
             <h3>
-            Contato
+                <img src="images/email.png" alt="Entre em contato" title="Preencha todos os campos" height="100" width="100">
+                Contato
             </h3>
             <p>
                 Nome: <input id="nome" size="100"/><br>
+                Email: <input id="email" size="100"/><br>
                 Mensagem: <br><textarea id="mensagem" cols="110" rows="10" placeholder="Digite sua mensagem..."></textarea><br>
-                <input type="submit" id="btn_submit" value="Enviar" />
+                <input type="submit" id="btn_enviar_msg" value="Enviar" />
             </p>
+            <p>Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro - RJ</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1178584692666!2d-43.36403258535193!3d-22.982693146361264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ec9620a2d%3A0x5c8412e8969fa343!2sDevMedia!5e0!3m2!1spt-BR!2sbr!4v1614278713361!5m2!1spt-BR!2sbr"
+               width="600" height="450"></iframe>
         </div>
     </body>
 </html>
