@@ -1,4 +1,55 @@
-p { 
-    color: red;
-    font-size: 32px;
+@font-face {
+    font-family: "Barrio";
+    src: local(Barrio-Regular), url(./assets/fonts/Barrio-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: "Barrio";
+    src: local(Barrio-Regular), url(./assets/fonts/Barrio-Regular.ttf);
+    font-weight: 600;
+ }
+
+@font-face {
+   font-family: "Barrio";
+   src: local(Barrio-Regular), url(./assets/fonts/Barrio-Regular.ttf);
+   font-weight: 900;
+}
+
+.redfont {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: rgba(209, 8, 58, 0.7);
+}
+
+.green-barrio {
+    font-family: 'Barrio';
+    color: rgb(11, 131, 71);
+}
+
+#blue-id {
+    color: rgb(40, 40, 150);
+}
+
+p {
+    font-size: 18px;
+    font-family: "Trebuchet MS";
+    text-align: justify;
+    font-weight: lighter;
+    text-shadow: 2px 4px 5px rgb(184, 175, 175);
+    line-height: 1.6em;
+    letter-spacing: 2px; 
+    word-spacing: 4px; 
+}
+
+#p2 {
+    font-weight: bold;
+}
+
+#p3 {
+    font-weight: bolder;
+}
+
+blockquote {
+    margin-left: 2%;
+    font-style: italic;
+    text-align: center;
 }
